@@ -1,0 +1,156 @@
+/*Responsive Design Section*/
+/*Base Styling*/
+html {
+	position: absolute;
+}
+body {
+	font-family: 'Caveat Brush', cursive;
+	margin:-15px;
+	padding-left: 7%;
+	padding-right: 3%;
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+	font-size: 175%;
+}
+
+h2 {
+	font-size: 125%;
+}
+
+.chicken {
+	border: solid 1px #000;
+	background-color: #806F67;
+	padding: 1em;
+	position: relative;
+	float: left;
+}
+
+.chicken h2 {
+	border-bottom: solid 1px #000;
+	border-left: solid 1px #000;
+	margin: 0;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #F06F62;
+}
+
+.beef {
+	border: solid 1px #000;
+	background-color: #806F67;
+	padding: 1em;
+	position: relative;
+	float: left;
+}
+
+.beef h2 {
+	border-bottom: solid 1px #000;
+	border-left: solid 1px #000;
+	float: right;
+	margin: 0;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #D71401
+}
+
+span {
+	color: #ffffff;
+}
+
+.sushi {
+	border: solid 1px #000;
+	background-color: #806F67;
+	padding: 1em;
+	position: relative;
+	float: left;
+}
+
+.sushi h2 {
+	border-bottom: solid 1px #000;
+	border-left: solid 1px #000;
+	float: right;
+	margin: 0;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #F7CE6E;
+}
+
+/*PC View or Large Devices*/
+@media (min-width: 992px) {
+.chicken {
+	width: 27%;
+	margin: 1%;
+}
+
+.beef {
+	width: 27%;
+	margin: 1%;
+}
+
+.sushi {
+	width: 27%;
+	margin: 1%;
+}
+
+h2 {
+	width: 30%;
+}
+}
+
+
+/*Tablet View or Medium Devices*/
+@media (min-width: 768px) and (max-width: 991px){
+.chicken {
+	width: 41.5%;
+	margin: 1%;
+}
+
+.beef {
+	width: 41.5%;
+	margin: 1%;
+}
+
+.sushi {
+	width: 89%;
+	margin: 1%;
+}
+
+h2 {
+	width: 30%;
+}
+}
+
+
+/*Mobile View or Small Devices*/
+@media (max-width: 767px) {
+.chicken {
+	width: 90%;
+	margin: 5px;
+}
+
+.beef {
+	width: 90%;
+	margin: 5px;
+}
+
+.sushi {
+	width: 90%;
+	margin: 5px;
+}
+
+h2 {
+	width: 30%;
+}
+}
+
+
+
+
